@@ -42,6 +42,7 @@
             this.cbSuSogutma = new System.Windows.Forms.CheckBox();
             this.dtpUretimTarihi = new System.Windows.Forms.DateTimePicker();
             this.btnGoster = new System.Windows.Forms.Button();
+            this.lSonuc = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.nudId)).BeginInit();
             this.SuspendLayout();
             // 
@@ -203,12 +204,22 @@
             this.btnGoster.UseVisualStyleBackColor = true;
             this.btnGoster.Click += new System.EventHandler(this.btnGoster_Click);
             // 
+            // lSonuc
+            // 
+            this.lSonuc.AutoSize = true;
+            this.lSonuc.Location = new System.Drawing.Point(19, 214);
+            this.lSonuc.Name = "lSonuc";
+            this.lSonuc.Size = new System.Drawing.Size(38, 15);
+            this.lSonuc.TabIndex = 14;
+            this.lSonuc.Text = "label5";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Silver;
             this.ClientSize = new System.Drawing.Size(456, 243);
+            this.Controls.Add(this.lSonuc);
             this.Controls.Add(this.dtpUretimTarihi);
             this.Controls.Add(this.cbSuSogutma);
             this.Controls.Add(this.cbRam);
@@ -250,5 +261,6 @@
         private CheckBox cbSuSogutma;
         private DateTimePicker dtpUretimTarihi;
         private Button btnGoster;
+        private Label lSonuc;
     }
 }
